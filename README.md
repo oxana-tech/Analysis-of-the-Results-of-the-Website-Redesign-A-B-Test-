@@ -2,7 +2,7 @@
  This notebook contains a comprehensive analysis of the results of an A/B test of a new webpage design.
 Objective: To determine whether the new design improved conversion rates, session duration, and page views. 
 
-## Project Objective:
+### Project Objective:
 To evaluate the effectiveness of the new website design (treatment group) compared to the current design (control group). The main question is: Did the new design improve key user behavior metrics, specifically:
 Conversion rate (converted) – Did the user complete the target action?
 Session duration (session_duration) – how many minutes the user spent on the site.
@@ -16,7 +16,7 @@ treatment – 4,987
 Features: user_id, variant, converted, session_duration, pages_visited, age
 The data was pre-cleaned and checked for missing values and outliers.
 
-Analysis Steps:
+### Analysis Steps:
 Calculation of Key Metrics
 Number of conversions, average session duration, average number of pages—separately for each group.
 Statistical testing
@@ -27,10 +27,11 @@ Segmentation by age
 Groups: <25, 25–34, 35–44, 45+.
 Tests were repeated for each group.
 
-Outlier analysis:
+### Outlier analysis:
 Interquartile range (IQR) method.
 Boxplot for visualizing distributions.
-Power Analysis
+
+### Power Analysis:
 For the group where the conversion rate was found to be insignificant (25–34), the required sample size was calculated.
 Visualization
 Dashboard in Python (matplotlib) and Excel.
@@ -42,11 +43,11 @@ Statistical tests confirmed the significance of these differences. For conversio
 
 Segmentation by age showed that for the group aged 25 and under, the conversion rate was 9.9% in the control group and 14.7% in the test group, p-value = 0.0053 – significant. For the 25–34 age group, the conversion rate was 11.3% versus 13.3%, p-value = 0.1491 – not significant. For the 35–44 age group: 10.3% versus 15.5%, p-value = 0.0003 – significant. For the 45+ age group: 10.7% vs. 14.2%, p-value = 0.0008 – significant. The only exception is the 25–34 age group, where p = 0.149. A power analysis was conducted for this group, which showed that the current sample size (approximately 2,500 users per group) is insufficient to detect a 5% difference. The required sample size is approximately 6,279 users per group, meaning an additional 7,558 users are needed.
 
-Outlier Analysis:
+### Outlier Analysis:
 59 outliers were identified in the session_duration metric (0.59% of all data).
 The distributions exhibit right-skewed asymmetry, but Welch’s t-test is robust to such deviations in large samples.
 
-Conclusions:
+### Conclusions:
 The new design significantly improves user engagement:
 Conversion increased by 34.6% (from 10.65% to 14.34%).
 Sessions became 39.6% longer.
@@ -55,14 +56,14 @@ The impact is positive for most age groups, especially for 35–44 (the highest 
 The 25–34 age group is the only one where the change in conversion is not statistically significant. The reason is insufficient sample size, not the absence of an effect. It is recommended to collect additional data.
 Outliers do not affect the reliability of the conclusions (the proportion is less than 1%).
 
-Recommendations for business
+### Recommendations for business:
 Roll out the new design to all users—the results are compelling.
 Conduct additional data collection for the 25–34 age group (approximately 6,300 users per group) to obtain a statistically significant conclusion regarding conversion.
 Intensify marketing campaigns for the 35–44 segment—it responds best to the new design.
 Investigate the causes of abnormally long sessions (>15 min)—these may be technical errors or highly engaged users.
 Conduct a repeat A/B test 3 months after implementation to confirm the long-term effect.
 
-## "Аналіз результатів  “Website Redesign A/B Test"
+# "Аналіз результатів  “Website Redesign A/B Test"
 
 Мета проєкту:
 Оцінити ефективність нового дизайну вебсторінки (варіант treatment) порівняно з поточним дизайном (варіант control). Головне питання: чи покращив новий дизайн ключові поведінкові показники користувачів, а саме:
