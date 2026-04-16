@@ -127,16 +127,16 @@ Boxplot для візуалізації розподілів.
 Дослідити причини аномально довгих сесій (>15 хв) – можливо, це технічні помилки або дуже залучені користувачі.
 Через 3 місяці після впровадження провести повторний A/B тест для підтвердження довгострокового ефекту.
  
-## Dataset
+## View Dataset
  <a href="https://docs.google.com/spreadsheets/d/1z4RYogd5O2bal2KzrpOMQZf2R0mVi0UecmoPQ6tRn48/edit?usp=sharing">Dataset</a>
-## Cod Python
+## View Cod Python
  <a href="https://colab.research.google.com/drive/1xZ-TNClbh-iYjgGBAyjEIrqdg2akXoV4?usp=sharing">Cod Python</a>
-## Dashboard
+## View Dashboard
  <a href="https://1drv.ms/x/c/967993caafdfee23/IQApIiRJ1bMVS4cORHnhKip-AW4Y2w4fHrLuSDYgOkwFN7E?e=OL2auf">Dashboard  in Excel</a>
 
  <a href="https://github.com/oxana-tech/Analysis-of-the-Results-of-the-Website-Redesign-A-B-Test-">Dashboard  in html</a>
 
  <a href="https://drive.google.com/file/d/1mBu0alv6lU5y0MGjaBbWz_Z78EXPHZE_/view?usp=sharing">Dashboard  in PDF</a>
 
-## AB_Test_Report
+##View AB_Test_Report
  <a href="https://drive.google.com/file/d/155I7ieWOMWMNXZ-MjEEV-EWdPict0dcP/view?usp=sharing">Dataset</a>
