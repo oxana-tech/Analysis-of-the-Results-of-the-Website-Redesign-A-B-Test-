@@ -129,3 +129,7 @@ Boxplot для візуалізації розподілів.
  
  ## Dataset
  <a href="https://docs.google.com/spreadsheets/d/1z4RYogd5O2bal2KzrpOMQZf2R0mVi0UecmoPQ6tRn48/edit?usp=sharing">Dataset</a>
+
+ ## Cod Python
+ <a href="https://colab.research.google.com/drive/1xZ-TNClbh-iYjgGBAyjEIrqdg2akXoV4?usp=sharing">Cod Python</a>
+
