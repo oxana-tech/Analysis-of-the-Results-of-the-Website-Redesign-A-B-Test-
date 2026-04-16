@@ -2,14 +2,14 @@
  This notebook contains a comprehensive analysis of the results of an A/B test of a new webpage design.
 Objective: To determine whether the new design improved conversion rates, session duration, and page views. 
 
-#Project Objective:
+Project Objective:
 To evaluate the effectiveness of the new website design (treatment group) compared to the current design (control group). The main question is: Did the new design improve key user behavior metrics, specifically:
 Conversion rate (converted) – Did the user complete the target action?
 Session duration (session_duration) – how many minutes the user spent on the site.
 Number of pages viewed (pages_visited) – page depth.
 Additionally – segmentation by age groups and statistical confirmation of the significance of differences.
 
-#Data:
+Data:
 Sample size: 10,000 users
 control – 5,013
 treatment – 4,987
