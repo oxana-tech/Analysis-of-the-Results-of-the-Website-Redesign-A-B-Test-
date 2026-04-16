@@ -9,7 +9,7 @@ Session duration (session_duration) – how many minutes the user spent on the s
 Number of pages viewed (pages_visited) – page depth.
 Additionally – segmentation by age groups and statistical confirmation of the significance of differences.
 
-Data:
+### Data:
 Sample size: 10,000 users
 control – 5,013
 treatment – 4,987
